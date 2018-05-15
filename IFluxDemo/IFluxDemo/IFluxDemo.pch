@@ -1,0 +1,24 @@
+//
+//  IFluxDemo.pch
+//  IFluxDemo
+//
+//  Created by 邹明 on 16/10/8.
+//  Copyright © 2016年 com.taobao. All rights reserved.
+//
+
+#ifndef IFluxDemo_pch
+#define IFluxDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <IFlux/IFlux.h>
+#import <TRIPModule/TRIPModule.h>
+#import "UIColor+TRIP.h"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define STRING_IS_EMPTY(str) ((str) == nil ||![(str) isKindOfClass:[NSString class]]|| [(str) length]<1)
+
+#endif /* IFluxDemo_pch */

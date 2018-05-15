@@ -1,2 +1,2 @@
 # IFlux
-an iOS framework depends on flux architecture
+暂时还没有准备文档

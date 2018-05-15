@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954DA28D1DABBA5000F6A990 /* UIColor+TRIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 954DA28C1DABBA5000F6A990 /* UIColor+TRIP.m */; };
+		9576469C1DABB4180073FF2F /* TRIPModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9576469B1DABB4180073FF2F /* TRIPModule.framework */; };
+		959D98241DABB3970022B724 /* TRIPModuleTestAddCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D981B1DABB3970022B724 /* TRIPModuleTestAddCellView.m */; };
+		959D98251DABB3970022B724 /* TRIPModuleTestDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D981D1DABB3970022B724 /* TRIPModuleTestDataService.m */; };
+		959D98261DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D981F1DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.m */; };
+		959D98271DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D98211DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.m */; };
+		959D98281DABB3970022B724 /* TRIPModuleTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D98231DABB3970022B724 /* TRIPModuleTestViewController.m */; };
+		95AA72491DA8C1C900EBEC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AA72481DA8C1C900EBEC49 /* main.m */; };
+		95AA724C1DA8C1C900EBEC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AA724B1DA8C1C900EBEC49 /* AppDelegate.m */; };
+		95AA72AA1DA907E700EBEC49 /* IFluxTestDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AA72A91DA907E700EBEC49 /* IFluxTestDataService.m */; };
+		95AA72B01DA90BCF00EBEC49 /* IFlux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AA72AE1DA9098A00EBEC49 /* IFlux.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		954DA28B1DABBA5000F6A990 /* UIColor+TRIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+TRIP.h"; path = "Test/UIColor+TRIP.h"; sourceTree = "<group>"; };
+		954DA28C1DABBA5000F6A990 /* UIColor+TRIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+TRIP.m"; path = "Test/UIColor+TRIP.m"; sourceTree = "<group>"; };
+		9576469B1DABB4180073FF2F /* TRIPModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TRIPModule.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Untitled-aplzmkdzcraecjfcqbihebrpjqyv/Build/Products/Debug-iphonesimulator/TRIPModule.framework"; sourceTree = "<group>"; };
+		959D981A1DABB3970022B724 /* TRIPModuleTestAddCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRIPModuleTestAddCellView.h; path = Test/TRIPModuleTestAddCellView.h; sourceTree = "<group>"; };
+		959D981B1DABB3970022B724 /* TRIPModuleTestAddCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRIPModuleTestAddCellView.m; path = Test/TRIPModuleTestAddCellView.m; sourceTree = "<group>"; };
+		959D981C1DABB3970022B724 /* TRIPModuleTestDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRIPModuleTestDataService.h; path = Test/TRIPModuleTestDataService.h; sourceTree = "<group>"; };
+		959D981D1DABB3970022B724 /* TRIPModuleTestDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRIPModuleTestDataService.m; path = Test/TRIPModuleTestDataService.m; sourceTree = "<group>"; };
+		959D981E1DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRIPModuleTestImgTypeTableViewCell.h; path = Test/TRIPModuleTestImgTypeTableViewCell.h; sourceTree = "<group>"; };
+		959D981F1DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRIPModuleTestImgTypeTableViewCell.m; path = Test/TRIPModuleTestImgTypeTableViewCell.m; sourceTree = "<group>"; };
+		959D98201DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRIPModuleTestTextTypeTableViewCell.h; path = Test/TRIPModuleTestTextTypeTableViewCell.h; sourceTree = "<group>"; };
+		959D98211DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRIPModuleTestTextTypeTableViewCell.m; path = Test/TRIPModuleTestTextTypeTableViewCell.m; sourceTree = "<group>"; };
+		959D98221DABB3970022B724 /* TRIPModuleTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRIPModuleTestViewController.h; path = Test/TRIPModuleTestViewController.h; sourceTree = "<group>"; };
+		959D98231DABB3970022B724 /* TRIPModuleTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRIPModuleTestViewController.m; path = Test/TRIPModuleTestViewController.m; sourceTree = "<group>"; };
+		959D98291DABB3D80022B724 /* TRIPModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TRIPModule.framework; path = "../TRIPModule/TRIPModule/build/Debug-iphoneos/TRIPModule.framework"; sourceTree = "<group>"; };
+		95AA72441DA8C1C900EBEC49 /* IFluxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFluxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AA72481DA8C1C900EBEC49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95AA724A1DA8C1C900EBEC49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95AA724B1DA8C1C900EBEC49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95AA72581DA8C1C900EBEC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AA72A81DA907E700EBEC49 /* IFluxTestDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFluxTestDataService.h; sourceTree = "<group>"; };
+		95AA72A91DA907E700EBEC49 /* IFluxTestDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFluxTestDataService.m; sourceTree = "<group>"; };
+		95AA72AC1DA9093500EBEC49 /* IFluxDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFluxDemo.pch; sourceTree = "<group>"; };
+		95AA72AE1DA9098A00EBEC49 /* IFlux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IFlux.framework; path = "../../../../Library/Developer/Xcode/DerivedData/IFluxDemo-dshqyuzflkuwccbunhzwunutbffh/Build/Products/Debug-iphonesimulator/IFlux.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AA72411DA8C1C900EBEC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA72B01DA90BCF00EBEC49 /* IFlux.framework in Frameworks */,
+				9576469C1DABB4180073FF2F /* TRIPModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959D98191DABB38B0022B724 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				954DA28B1DABBA5000F6A990 /* UIColor+TRIP.h */,
+				954DA28C1DABBA5000F6A990 /* UIColor+TRIP.m */,
+				959D981A1DABB3970022B724 /* TRIPModuleTestAddCellView.h */,
+				959D981B1DABB3970022B724 /* TRIPModuleTestAddCellView.m */,
+				959D981C1DABB3970022B724 /* TRIPModuleTestDataService.h */,
+				959D981D1DABB3970022B724 /* TRIPModuleTestDataService.m */,
+				959D981E1DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.h */,
+				959D981F1DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.m */,
+				959D98201DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.h */,
+				959D98211DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.m */,
+				959D98221DABB3970022B724 /* TRIPModuleTestViewController.h */,
+				959D98231DABB3970022B724 /* TRIPModuleTestViewController.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		95AA723B1DA8C1C900EBEC49 = {
+			isa = PBXGroup;
+			children = (
+				95AA72461DA8C1C900EBEC49 /* IFluxDemo */,
+				95AA72451DA8C1C900EBEC49 /* Products */,
+				95AA72AD1DA9098A00EBEC49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95AA72451DA8C1C900EBEC49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AA72441DA8C1C900EBEC49 /* IFluxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AA72461DA8C1C900EBEC49 /* IFluxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				959D98191DABB38B0022B724 /* Test */,
+				95AA724A1DA8C1C900EBEC49 /* AppDelegate.h */,
+				95AA724B1DA8C1C900EBEC49 /* AppDelegate.m */,
+				95AA72A81DA907E700EBEC49 /* IFluxTestDataService.h */,
+				95AA72A91DA907E700EBEC49 /* IFluxTestDataService.m */,
+				95AA72581DA8C1C900EBEC49 /* Info.plist */,
+				95AA72471DA8C1C900EBEC49 /* Supporting Files */,
+			);
+			path = IFluxDemo;
+			sourceTree = "<group>";
+		};
+		95AA72471DA8C1C900EBEC49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95AA72481DA8C1C900EBEC49 /* main.m */,
+				95AA72AC1DA9093500EBEC49 /* IFluxDemo.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95AA72AD1DA9098A00EBEC49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9576469B1DABB4180073FF2F /* TRIPModule.framework */,
+				959D98291DABB3D80022B724 /* TRIPModule.framework */,
+				95AA72AE1DA9098A00EBEC49 /* IFlux.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AA72431DA8C1C900EBEC49 /* IFluxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AA725B1DA8C1C900EBEC49 /* Build configuration list for PBXNativeTarget "IFluxDemo" */;
+			buildPhases = (
+				95AA72401DA8C1C900EBEC49 /* Sources */,
+				95AA72411DA8C1C900EBEC49 /* Frameworks */,
+				95AA72421DA8C1C900EBEC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IFluxDemo;
+			productName = IFluxDemo;
+			productReference = 95AA72441DA8C1C900EBEC49 /* IFluxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AA723C1DA8C1C900EBEC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.taobao;
+				TargetAttributes = {
+					95AA72431DA8C1C900EBEC49 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9S9V8Z46E7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95AA723F1DA8C1C900EBEC49 /* Build configuration list for PBXProject "IFluxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AA723B1DA8C1C900EBEC49;
+			productRefGroup = 95AA72451DA8C1C900EBEC49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AA72431DA8C1C900EBEC49 /* IFluxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AA72421DA8C1C900EBEC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AA72401DA8C1C900EBEC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959D98261DABB3970022B724 /* TRIPModuleTestImgTypeTableViewCell.m in Sources */,
+				959D98251DABB3970022B724 /* TRIPModuleTestDataService.m in Sources */,
+				95AA72AA1DA907E700EBEC49 /* IFluxTestDataService.m in Sources */,
+				959D98241DABB3970022B724 /* TRIPModuleTestAddCellView.m in Sources */,
+				95AA724C1DA8C1C900EBEC49 /* AppDelegate.m in Sources */,
+				95AA72491DA8C1C900EBEC49 /* main.m in Sources */,
+				954DA28D1DABBA5000F6A990 /* UIColor+TRIP.m in Sources */,
+				959D98271DABB3970022B724 /* TRIPModuleTestTextTypeTableViewCell.m in Sources */,
+				959D98281DABB3970022B724 /* TRIPModuleTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95AA72591DA8C1C900EBEC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95AA725A1DA8C1C900EBEC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95AA725C1DA8C1C900EBEC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9S9V8Z46E7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IFluxDemo/IFluxDemo.pch";
+				INFOPLIST_FILE = IFluxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.IFluxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95AA725D1DA8C1C900EBEC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9S9V8Z46E7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IFluxDemo/IFluxDemo.pch";
+				INFOPLIST_FILE = IFluxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.IFluxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AA723F1DA8C1C900EBEC49 /* Build configuration list for PBXProject "IFluxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA72591DA8C1C900EBEC49 /* Debug */,
+				95AA725A1DA8C1C900EBEC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AA725B1DA8C1C900EBEC49 /* Build configuration list for PBXNativeTarget "IFluxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AA725C1DA8C1C900EBEC49 /* Debug */,
+				95AA725D1DA8C1C900EBEC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95AA723C1DA8C1C900EBEC49 /* Project object */;
+}
